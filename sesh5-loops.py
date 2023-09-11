@@ -44,7 +44,7 @@
 #     print(f"your input: {current_input},current total: {total}")
 # print(total)
 
-# EX3: test score, get user input and check if num exist in range 1 - 100
+# **EX3: test score, get user input and check if num exist in range 1 - 100**
 # user_input = int(input("Insert your test mark:"))
 # status = False
 # for i in range(0, 101):
@@ -54,3 +54,27 @@
 #     print(f"Your result:{user_input}")
 # else:
 #     print("Invalid result number, please provide it as a number(0 - 100)")
+
+# **EX4: print a staircase pattern with '*' with a base of 8 **
+# MAX = 8
+# MIN = 1
+# for i in range(MIN, MAX):
+#     print(i*"*")
+
+# **EX5:
+# a) display even numbers 100 to 10 **
+# for i in range(100, 9, -2):
+#     print(i)
+# b) display the triangle pattern using nested for loops
+# FOR LOOP 1 - only used to nest the 2nd loop
+# FOR LOOP 2 -IF-ELSE to check
+# end="" removes newline, we used print() in 1st loop to create new row, otherwise all print will remain in 1 row
+MAX = 5
+for i in range(MAX):
+    for j in range(i):
+        print('*', end="")
+    print(' ')
+for i in range(MAX, 0, -1):
+    for j in range(i):
+        print('*', end="")
+    print('')
