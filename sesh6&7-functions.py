@@ -1,3 +1,6 @@
+# Import libraries
+
+
 # Ex1 function(printname)
 # def main():
 #     first_name = input("Hello world, what is your name? ")
@@ -27,24 +30,37 @@
 # main()
 
 
-# Ex3 Global variable change and default param
-num = 10
+# Ex3 Global variable change and default param, recursion
+# num = 10
 
 
-def main():
-    print("value of num is", num)
-    change_num()
-    print("new value of num is ", num)
-    my_country("Sweden")
+# def main():
+#     print("value of num is", num)
+#     # change_num()
+#     print("new value of num is ", num)
+#     my_country("Sweden")
+#     sum_of_series(num)
 
 
-def change_num():
-    global num
-    num = num*10
+# def change_num():
+#     global num
+#     num = num*10
 
 
-def my_country(country="Australia"):
-    print(f"I am from {country}")
-
-
-main()
+# def my_country(country="Australia"):
+#     print(f"I am from {country}")
+#
+#
+# # Recursion, remember the function calls on itself until the condition doesn't meet
+# # THEN it returns the values up the callback of the function which then executes the 1 + function
+# # displaying result in + 1 increments
+# def sum_of_series(num_):
+#     if num_ > 0:
+#         result = num_ + sum_of_series(num_ - 1)
+#         print(result)
+#     else:
+#         result = 0
+#     return result
+#
+#
+# main()
