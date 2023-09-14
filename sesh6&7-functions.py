@@ -1,5 +1,18 @@
 # Import libraries
-
+# Create a module file named
+# Create 4 functions within module and call the module here
+# import myModule
+# first, last, age = myModule.func1()
+# print(f"Hi {first} {last} aged {age}")
+#
+# average = myModule.func2(1, 2, 3)
+# print(f"The average from provided inputs is {average}")
+#
+# highest_num = myModule.func3(10, 100)
+# print("Highest input number is", highest_num)
+#
+# total_average = myModule.func4(10)
+# print("Total average from incremental sum of 10 is", total_average)
 
 # Ex1 function(printname)
 # def main():

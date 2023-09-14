@@ -101,7 +101,7 @@
 #         break
 
 # Enumerate and List
-my_list = [1, 2, 3, 4, 5]
-
-for i in enumerate(my_list):
-    print(i)
+# my_list = [1, 2, 3, 4, 5]
+#
+# for i in enumerate(my_list):
+#     print(i)
