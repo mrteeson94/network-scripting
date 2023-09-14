@@ -69,12 +69,39 @@
 # FOR LOOP 1 - only used to nest the 2nd loop
 # FOR LOOP 2 -IF-ELSE to check
 # end="" removes newline, we used print() in 1st loop to create new row, otherwise all print will remain in 1 row
-MAX = 5
-for i in range(MAX):
-    for j in range(i):
-        print('*', end="")
-    print(' ')
-for i in range(MAX, 0, -1):
-    for j in range(i):
-        print('*', end="")
-    print('')
+# MAX = 5
+# for i in range(MAX):
+#     for j in range(i):
+#         print('*', end="")
+#     print(' ')
+# for i in range(MAX, 0, -1):
+#     for j in range(i):
+#         print('*', end="")
+#     print('')
+
+# count nums of even and odd in a series of num
+# even = 0
+# odd = 0
+# for i in range(10):
+#     print(i)
+#     if i % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+# print(f"counts of even {even}")
+# print(f"counts of odd {odd}")
+
+# **BREAK CONTINUE PASS exercise **
+# name = "python teaching"
+# for i in name:
+#     print(i)
+#     if i == 'h':
+#         continue
+#     elif i == 'n':
+#         break
+
+# Enumerate and List
+my_list = [1, 2, 3, 4, 5]
+
+for i in enumerate(my_list):
+    print(i)
