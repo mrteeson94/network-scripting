@@ -10,6 +10,10 @@ abs_path = os.path.join(base_dir, rel_path)
 print(abs_path)
 print(os.listdir(abs_path))
 
+dirname, basename = os.path.split(abs_path)
+print("Directory Name: ", dirname, '\n', "Base Name: ", basename)
+
+
 # Import libraries
 # Create a module file named
 # Create 4 functions within module and call the module here
