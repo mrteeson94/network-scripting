@@ -1,3 +1,10 @@
+# OS Functions
+import os
+os.chdir(r"C:\Users\AKATY\Desktop\Python")
+print(os.getcwd())
+print((os.listdir()))
+
+
 # Import libraries
 # Create a module file named
 # Create 4 functions within module and call the module here
