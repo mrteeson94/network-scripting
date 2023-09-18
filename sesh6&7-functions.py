@@ -1,9 +1,14 @@
 # OS Functions
 import os
 os.chdir(r"C:\Users\AKATY\Desktop\Python")
+base_dir = os.getcwd()
 print(os.getcwd())
 print((os.listdir()))
 
+rel_path = r"test"
+abs_path = os.path.join(base_dir, rel_path)
+print(abs_path)
+print(os.listdir(abs_path))
 
 # Import libraries
 # Create a module file named
