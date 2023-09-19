@@ -1,4 +1,5 @@
 import os
+import random
 
 # OS Functions
 # os.chdir(r"C:\Users\AKATY\Desktop\Python")
@@ -29,12 +30,44 @@ import os
 #         else:
 #             print("exist, therefore skip")
 #             continue
+#     file_list.close()
 # else:
 #     print("Cannot locate filepath of studentlist.txt")
 
-
 # For each new student in the file, create a dir in Std folder.
 
+# EX: Generate 5 random nums from 1 - 100
+# for i in range(0, 5):
+#     print(random.randint(1, 100))
+
+# map(function, iterate), filter(), Lambda function EX
+
+
+def function_square(x):
+    return x**2
+
+
+def check_even(x):
+    if x % 2 == 0:
+        return True
+
+
+result = lambda x: x*x
+
+
+def main():
+    nums = [1, 2, 3, 4, 5]
+    squared_nums = map(function_square, nums)
+    list_num = list(squared_nums)
+    print(list_num)
+
+    filter_out_odds = filter(check_even, nums)
+    print(filter_out_odds)
+    print(list(filter_out_odds))
+    print(result(5))
+
+
+main()
 
 
 # Import libraries
