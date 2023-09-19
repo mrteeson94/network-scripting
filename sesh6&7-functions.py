@@ -1,17 +1,40 @@
-# OS Functions
 import os
-os.chdir(r"C:\Users\AKATY\Desktop\Python")
-base_dir = os.getcwd()
-print(os.getcwd())
-print((os.listdir()))
 
-rel_path = r"test"
-abs_path = os.path.join(base_dir, rel_path)
-print(abs_path)
-print(os.listdir(abs_path))
+# OS Functions
+# os.chdir(r"C:\Users\AKATY\Desktop\Python")
+# base_dir = os.getcwd()
+# print(os.getcwd())
+# print((os.listdir()))
+#
+# rel_path = r"test"
+# abs_path = os.path.join(base_dir, rel_path)
+# print(abs_path)
+# print(os.listdir(abs_path))
+#
+# dirname, basename = os.path.split(abs_path)
+# print("Directory Name: ", dirname, '\n', "Base Name: ", basename)
 
-dirname, basename = os.path.split(abs_path)
-print("Directory Name: ", dirname, '\n', "Base Name: ", basename)
+# **OS EX student list**
+# Open and read studentList.txt
+# file_path = r"C:\Users\AKATY\Desktop\studentList.txt"
+# dir_path = r"C:\Users\AKATY\Desktop\Std"
+# if os.path.exists(file_path):
+#     file_list = open(file_path, 'r')
+#     for student in file_list:
+#         os.chdir(dir_path)
+#         student = student.strip()
+#         if not os.path.exists(student):
+#             os.mkdir(student)
+#
+#         else:
+#             print("exist, therefore skip")
+#             continue
+# else:
+#     print("Cannot locate filepath of studentlist.txt")
+
+
+# For each new student in the file, create a dir in Std folder.
+
 
 
 # Import libraries
